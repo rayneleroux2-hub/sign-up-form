@@ -1,0 +1,203 @@
+.joti-one-regular {
+  font-family: "Joti One", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.playfair-display-text {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.page {
+    display: flex;
+    min-height: 100vh;
+    width: 100%;
+}
+
+#image-credit {
+    display: flex;
+    align-items: flex-end;
+    margin-top: auto;
+    color: white;   
+    padding: 10px;
+}
+
+.logo img {
+    width: 50px;
+    height: auto;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: white;
+    font-size: 48px;
+    background-color: rgba(0, 30, 15, 0.75);
+    height: 80px;
+    width: 100%;
+    margin-top: 200px;
+    justify-content: center;
+}
+
+.logo span {
+    font-family: "Playfair Display", serif;
+}
+
+
+#right-side {
+    display: flex;
+    flex-direction: column;
+    flex: 3;
+    background-color: rgba(120, 90, 200, 0.15);
+}
+#left-side {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    background-image: url(./Images/halie-west-25xggax4bSA-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    align-items: stretch;
+}
+
+#column-1, #column-2 {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.form-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: white;
+    padding: 20px;
+    width: 100%;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.columns {
+    display: flex;
+    gap: 20px;
+}
+
+.form-grid button {
+    align-self: flex-start;
+    padding: 8px 20px;
+    background-color: #596D48;
+    border-radius: 5px;
+    color: white;
+}
+
+.text {
+    padding: 20px;
+    max-width: 450px;
+}
+
+.login {
+    padding: 20px;
+}
+
+input {
+    border: #596D48 solid 1px;
+    outline: none;
+}
+
+input:focus {
+    border: 2px solid #1d1f91;
+    outline: none;
+    box-shadow: 0 0 5px rgba(233, 5, 81, 0.4);
+}
+
+input:user-invalid {
+    border: 1px solid red;
+}
+
+
+
+
+
+
+
+
+
+/* body {
+    margin: 5px;
+    min-height: 100vh;
+    background-image: url(./Images/cover-image.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+ 
+}
+
+.form-grid {
+    background: rgba(120, 90, 200, 0.35);
+    padding: 20px;
+    border-radius: 12px;
+    width: 100%;
+    max-width: 420px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 15px;
+    row-gap: 30px;
+}
+
+.page {
+    display: flex;
+    min-height: 100vh;
+    width: 100%;
+}
+
+#right-side {
+    position: relative;
+    flex: 2;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 10px;
+    box-sizing: border-box;
+}
+
+#left-side {
+    flex: 1;
+}
+
+label {
+    font-size: 20px;
+    font-weight: 900px;
+}
+
+input {
+    padding: 10px;
+}
+
+input:invalid {
+    border: 2px solid red;
+}
+
+button {
+    position: bottom-center;
+    padding: 10px;
+    background-color: #9c9ee4;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+textarea {   
+}
+
+h1 {
+    font-weight: bolder;
+}
+
+h2 {
+    font-weight: bolder;
+}*/

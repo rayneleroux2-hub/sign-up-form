@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-Up Form</title>
+    <link rel="stylesheet" href="style.css">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Joti+One&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="page">
+    
+        <div id="left-side">
+           <div class="logo">
+                <img src="./Images/odin-lined.png" alt="Odin Logo">
+                <span>ODIN</span>
+           </div>             
+                <p id="image-credit">Photo by Halie West on Unsplash</p>
+        </div>
+
+        <div id="right-side">
+
+            <div class="text">
+                <h1>Sign Up Today</h1>
+                <h3>This is not a real online service. Enter your information below to set up your account.
+                    Once you’re signed up, you’ll be ready to explore everything available.
+                    </h3>
+            </div>
+                    
+                <form class="form-grid" action="#" method="get">
+                
+                <div class="columns">
+                    <div id="column-1">
+                        <label for="first-name">First Name:</label>
+                        <input type="text" id="first-name" name="first-name" required>
+
+                        <label for="cell">Phone Number</label>
+                        <input type="tel" pattern="[0-9]{10}" name="cell" required>
+
+                        <label for="password">Password:</label>
+                        <input type="password" id="password" name="password" required minlength="8">
+                    </div>
+
+                    <div id="column-2">
+                        <label for="last-name">Last Name:</label>
+                        <input type="text" id="last-name" name="last-name" required>
+
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+
+                        <label for="confirm-password">Confirm Password:</label>
+                        <input type="password" id="confirm-password" name="confirm-password" required minlength="8">
+                    </div>
+                </div>
+              
+                <button type="submit">Create Account</button>
+
+            </form>    
+
+            <div class="login">
+                <p>Already have an account? <a href="#">Log in</a></p>
+            </div>    
+        </div>
+    
+</body>
+</html>
+
+
+
+
+
+
+
+<!--<!DOCTYPE html>
+<html lang="en">
+   
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Form</title>
+     <link rel="stylesheet" href="style.css">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Joti+One&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+
+
+    <div class="page">
+
+        <div id="left-side">
+            <h1>Get in touch</h1>
+            <h2>Whether you have a project in mind or just a quick question, feel free to reach out—I’d love to hear from you.</h2>
+        </div>
+
+        <div id="right-side">              
+            
+            <form class="form-grid" action="#" method="get">
+
+                <div class="field">
+                    <label for="name">First Name:</label>
+                    <input type="text" id="name" name="name">
+                </div>    
+
+                <div class="field">
+                    <label for="last-name">Last Name:</label>
+                    <input type="text" id="last-name" name="last-name">
+                </div>
+
+                <div class="field">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email">
+                </div>    
+                
+                <div class="field">
+                    <label for="phone-number">Phone Number:</label>
+                    <input type="tel" id="phone-number" name="phone-number">
+                </div>
+            
+                
+                <div class="field">
+                   <label for="message">Type your message here</label>
+                   <textarea id="message" name="message" rows="4"></textarea>
+                </div>
+                
+                <button type="submit" class="submit-btn">Create Account</button>
+            </form>
+        </div>
+     </div>   
+
+</body>
+</html>
